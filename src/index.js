@@ -1,5 +1,10 @@
 import "./styles.css";
 
+const data = {
+  name: "jak",
+  age: 28
+};
+
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
 <div>
