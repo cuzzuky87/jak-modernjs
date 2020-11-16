@@ -38,3 +38,22 @@ const ary5 = [30, 40];
 
 const ary6 = [...ary4, ...ary5];
 console.log(ary6);
+
+/**
+ * 参考演算子
+ */
+const val1 = 1 > 0 ? "True" : "False";
+console.log(val1);
+
+const num = "1300";
+console.log(num.toLocaleString());
+
+const formattedNum =
+  typeof num === "number" ? num.toLocaleString() : "input the number";
+console.log(formattedNum);
+
+const checkSum = (num1, num2) => {
+  return num1 + num2 > 100 ? "Over!!!" : "許容範囲内です";
+};
+
+console.log(checkSum(40, 100));
